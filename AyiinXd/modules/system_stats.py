@@ -180,10 +180,10 @@ async def amireallyalive(alive):
     await alive.edit("😈")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [Aʏɪɪɴ-Usᴇʀʙᴏᴛ](https://github.com/AyiinXd/Ayiin-Userbot)**\n\n"
+        f"**Tʜᴇ [Usᴇʀʙᴏᴛ](https://github.com/lunaticsm/Ayin)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"{emoji} **Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{var.BOT_VER}`\n"
+        f"{emoji} **Vᴇʀsɪᴏɴ :** `{var.BOT_VER}`\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         f"{emoji} **Dᴇᴘʟᴏʏ Oɴ :** {HOSTED_ON}\n"
         f"{emoji} **Mᴏᴅᴜʟᴇs :** `{len(modules)} Modules` \n"
