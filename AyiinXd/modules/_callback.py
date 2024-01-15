@@ -67,7 +67,7 @@ async def inline_handler(event):
     uid = user.id
     botusername = (await event.client.get_me()).username
     if event.query.user_id == uid and query.startswith(
-            "@AyiinChats"):
+            "@xuta_x"):
         buttons = paginate_help(0, dugmeler, "helpme")
         result = await event.builder.photo(
             file=logoyins,
@@ -85,7 +85,7 @@ async def inline_handler(event):
                 0,
                 "image/jpeg",
                 []),
-            text="**Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Uta](https://t.me/xuta)\n✧ **sᴜᴘᴘᴏʀᴛ :** @sexualredroom\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Userbot](https://github.com/lunaticsm/Ayin)\n➖➖➖➖➖➖➖➖➖➖",
+            text="**Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [Uta](https://t.me/xuta_x)\n✧ **sᴜᴘᴘᴏʀᴛ :** @sexualredroom\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [Userbot](https://github.com/lunaticsm/Ayin)\n➖➖➖➖➖➖➖➖➖➖",
             buttons=[
                 [
                     custom.Button.url(
@@ -134,7 +134,7 @@ async def inline_handler(event):
         result = builder.article(
             title="✨ ᴜsᴇʀʙᴏᴛ ✨",
             description="Userbot | Telethon",
-            url="https://t.me/xuta",
+            url="https://t.me/xuta_x",
             thumb=InputWebDocument(
                 var.INLINE_PIC,
                 0,
