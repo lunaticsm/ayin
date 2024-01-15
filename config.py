@@ -10,49 +10,13 @@ load_dotenv()
 
 
 DEVS = [
-    607067484, # Ayiin
-    997461844, # Punya Ayiin
-    844432220, # Risman
-    883761960, # Ari
-    2130526178, # Alfa
-    1663258664, # Kyy
+    1983980399, # Putra
 ]
 
 
 GCAST_BLACKLIST = [
-    -1001797285258,  # AyiinChats <- New
-    -1001675396283,  # AyiinChats
-    -1001473548283,  # SharingUserbot
-    -1001361294038,  # UltroidSupportChat
-    -1001387666944,  # PyrogramChat
-    -1001109500936,  # TelethonChat
-    -1001050982793,  # Python
-    -1001256902287,  # DurovsChat
-    -1001433238829,  # TedeSupport
-    -1001642830120,  # Aditya Discus
-    -1001476936696,  # AnosSupport
-    -1001327032795,  # UltroidSupport
-    -1001294181499,  # UserBotIndo
-    -1001419516987,  # VeezSupportGroup
-    -1001459812644,  # GeezSupportGroup
-    -1001296934585,  # X-PROJECT BOT
-    -1001481357570,  # UsergeOnTopic
-    -1001459701099,  # CatUserbotSupport
-    -1001109837870,  # TelegramBotIndonesia
-    -1001752592753,  # Skyzusupport
-    -1001788983303,  # KayzuSupport
-    -1001380293847,  # NastySupport
-    -1001692751821,  # RamSupport
-    -1001267233272,  # PocongUserbot
-    -1001500063792,  # Trident
-    -1001687155877,  # CilikSupport
-    -1001578091827,  # PrimeSupport
-    -1001704645461,  # Jamet No Support
-    -1001662510083,  # MutualanDestra
-    -1001347414136,  # ArunaMutualan
-    -1001572486389,  # PluviaMusicGroup
-    -1001608701614,  # UputtSupport
-    -1001812143750,  # Kynan Support
+    -1001624775332,  # ARR <- New
+    -1001511422552,  # AlterBase
 ]
 
 
@@ -113,7 +77,7 @@ class Config(object):
     GITHUB_ACCESS_TOKEN = getenv("GITHUB_ACCESS_TOKEN", None)
 
     # Custom (forked) repo URL for updater.
-    UPSTREAM_REPO_URL = getenv("UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git")
+    UPSTREAM_REPO_URL = getenv("UPSTREAM_REPO_URL", "https://github.com/lunaticsm/ayin.git")
 
     # Custom Name Sticker Pack
     S_PACK_NAME = getenv("S_PACK_NAME", None)
@@ -144,7 +108,7 @@ class Config(object):
     # untuk perintah teks costum .alive
     ALIVE_TEKS_CUSTOM = getenv(
         "ALIVE_TEKS_CUSTOM",
-        "Hey, Saya pengguna Ayiin-Userbot")
+        "Hey, Saya pengguna ARR-Userbot")
 
     # Default .alive name
     ALIVE_NAME = getenv("ALIVE_NAME", "AyiinXd")
